@@ -17,5 +17,12 @@ Printing to console
 // main
 int main()
 {
+    // init sequence
+    std::cout<<"*******> Welcome! You're now entering MrLib's Library <*******";
+    
+    // instance of mrlib class
+    mrlib ml;
+
+
     return 0;
 }

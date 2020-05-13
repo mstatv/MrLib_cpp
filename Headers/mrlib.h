@@ -7,15 +7,15 @@ class mrlib
     // public items in mrlib class
     public:
         // enum creation
-        enum class action_mrlib
+        enum class tasks_mrlib
         {
-            non, book_search, auth_search, book_sort, mrlib_save
+            none, book_search, auth_search, book_sort, mrlib_save
         };
 
         // creating functions
         bool user_continue();
-        char get_task();
+        char task_get();
 
 
-        action_mrlib user_input(char input);
+        tasks_mrlib user_input(char input);
 };
